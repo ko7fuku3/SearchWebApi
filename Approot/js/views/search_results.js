@@ -1,7 +1,8 @@
 MyApp.Views.SearchResults = Backbone.View.extend({
-    
-        initialize: function () {
-            this.$el.html(this.options.tmpl());
-        }
+
+    // 初期処理
+    initialize: function () {
+        this.$el.html(this.options.tmpl());
+    }
     
 });    
